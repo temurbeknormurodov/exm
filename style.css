@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Plus Jakarta Sans";
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+a {
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    gap: 40px;
+    margin-bottom: 91px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+}
+
+.button {
+    width: 156px;
+    height: 41px;
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-main {
+    width: 40%;
+    height: 333px;
+    font-weight: 700;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first__main-text {
+    width: 90%;
+    height: 234px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.first__main-btn {
+    margin-top: 40px;
+    width: 168px;
+    height: 59px;
+    background-color: #1AAB7B;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    color: #fff;
+}
+
+.real-main {
+    display: flex;
+    gap: 74px;
+}
+
+.cards {
+    margin-top: 211px;
+    height: 950px;
+    background-color: #E1E7ED;
+    padding-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.cards-element {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-left: 112px;
+    gap: 32px;
+    row-gap: 32px;
+}
+
+.cards-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 30px;
+    border: 1px solid black;
+    width: 384px;
+    height: 358px;
+    color: #000;
+}
+
+.cards-item:hover {
+    background-color: #1AAB7B;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.card-subtitle {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 324px;
+    height: 135px;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.card-btn {
+    width: 108px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.cards-item:hover .card-btn {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.callback-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.callback-section h1 {
+    font-size: 36px;
+    margin-bottom: 157px;
+    width: 411px;
+    height: 100px;
+    color: #101010;
+}
+
+.form-container {
+    width: 1216px;
+    height: 515px;
+    margin: 0 auto;
+    background: url('./image.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.form-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin-top: 45px;
+    width: 565px;
+    height: 434px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 72px;
+}
+
+.form-overlay input {
+    width: 464px;
+    height: 46px;
+    background: transparent;
+    margin-bottom: 51px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.form-overlay button {
+    width: 218px;
+    height: 60px;
+    background-color: #1AAB7B;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    height: 220px;
+}
+
+.footer .brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 112px;
+}
+
+.social-icons {
+    display: flex;
+    margin-right: 128px;
+    gap: 20px;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+    color: #ccc;
+}
